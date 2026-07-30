@@ -1,0 +1,46 @@
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 772px;
+}
+.home-wrapper{
+    margin-top: 214px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 16px;
+}
+.home-wrapper .title-container{
+    margin-bottom: 0;
+    width: 110px;
+}
+.home-title{
+font-family: "Cinzel", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #dde3eb;
+}
+.home-span{
+color: #ffce37;
+}
+@media only screen and (min-width: 1440px) {
+.home-section{
+    background-image: url("/img/home/desk.png");
+}
+.home-container{
+    padding-left: 104px;
+}
+.home-wrapper{
+    margin-top: 180px;
+width: 384px;
+}
+.home-title{
+font-size: 64px;
+    letter-spacing: -0.01em;
+}
+  
+}
