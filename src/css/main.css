@@ -95,3 +95,133 @@ margin-right: auto;
     flex-wrap: wrap;
 }  
 }
+/* How to Play */
+.how-section .title-container{
+    width: 130px;
+}
+.how-text{
+    text-align: center;
+}.how-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+    gap: 32px;
+}
+.how-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.how-item{
+    display: flex;
+    align-items: start;
+    gap: 24px;
+}
+.how-item-number{
+font-family: "Cinzel", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.0625;
+    color: #ffce37;
+}
+.how-item-title{
+font-family: "Cinzel", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #ffce37;
+    margin-bottom: 4px;
+}
+.how-item-wrapper{
+    width: 274px;
+}
+@media only screen and (min-width: 1440px) {
+.how-text{
+   width: 448px;
+   margin-left: auto;
+   margin-right: auto;
+}.how-wrapper{
+flex-direction: row-reverse;
+justify-content: center;
+    margin-top: 64px;
+    gap: 64px;
+}
+.how-list{
+width: 564px;
+}
+.how-item-wrapper{
+width: 500px;
+}    
+}
+/*  What Awaits Below */
+.what-section .title-container{
+    width: 190px;
+}
+.what-text{
+    text-align: center;
+}
+.what-list{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.what-item{
+border: 2px solid #99907c;
+    border-radius: 16px;
+    padding: 24px;
+    width: 290px;
+    height: 440px;
+box-shadow: inset 0 0 25px 2px rgba(153, 144, 124, 0.4);
+    background: #000c15;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.what-item-title{
+font-family: "Cinzel", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #ffce37;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.what-item-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 14px;
+}
+.what-item-text{
+font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #94a3b8;
+}
+.w2{
+border: 2px solid #a5bad9;
+}
+.w3{
+border: 2px solid #ffce37;
+}
+.w4{
+border: 2px solid #3de4e7;
+}
+.what-section h3{
+    margin-bottom: 0;
+}
+@media only screen and (min-width: 1440px) {
+.what-list{
+    margin-top: 64px;
+flex-direction: row;
+justify-content: center;
+gap: 24px;
+}
+.w2, .w4{
+margin-top: 28px;
+}   
+}
